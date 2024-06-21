@@ -1,0 +1,534 @@
+.index{
+    background-image: url(backg.jpg);
+    background-size: cover;
+    background-color: rgb(15, 113, 211);
+}
+
+header{
+    height: 250px;
+    width: 100%;
+}
+.indexh1{
+    font-weight:700;
+    background-color: #0f1111;
+    color:white;
+    border-radius: 9px;
+    font-size: 90px;
+    width:fit-content;
+    box-shadow: 0 0 100px greenyellow;
+    text-decoration: underline;
+}
+.indexh1:hover{
+    border:solid 5px rgb(179, 137, 13);
+}
+.headiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    height:55px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    padding: 2.5px;
+    background-color: #0f1111;
+    color:white;
+    border-radius: 9px;
+}
+.intro:hover{
+    border:solid 5px rgb(179, 137, 13);
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+.qual{
+        height: 350px;
+        width: 450px;
+        background-color: white;
+        padding: 0px 0px 15px ;
+        margin-top: 60px;
+        border-radius: 9px;
+}
+.qual:hover{
+    border:6px solid black; 
+    
+    box-shadow: 0 0 100px greenyellow;
+}
+.cont{
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont p{
+    color:#007185;
+}
+.cont h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 0 100px rgb(15, 102, 223);
+}
+.box-img{
+    
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but button{
+    /* background-color: darkcyan;
+    color: white; */
+    font-size: 18px;
+    border-radius:  5px ;
+    border:   solid  5px transparent;
+}
+.but button:hover{
+    background-color: darkcyan;
+    color: white;
+    border: solid  5px  black;
+    box-shadow: 0 0 100px rgb(2, 43, 120);
+}
+.foot-panel1{
+    background-color: #032042;
+    color:white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+/* EDUCATION */
+.X-index{
+    background-color: rgb(15, 102, 223);
+}
+.educat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+.head1{
+    font-weight:700;
+    background-color: #0f1111;
+    color:white;
+    border-radius: 9px;
+    font-size: 90px;
+    width:fit-content;
+    box-shadow: 0 0 100px greenyellow;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+}
+.head1:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.edu-head{
+    font-weight: 700;
+    background-color : #0f1111;
+    color:white ;
+    border-radius: 9px;
+    font-size: 90px;
+    width:fit-content;
+    box-shadow: 0 0 100px greenyellow;
+    text-decoration: underline;
+}
+
+.school{
+    height:800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.school:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.schl-cont{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.schl-cont h1{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    background-color : #0f1111;
+    color:white ;
+    border: solid 5px transparent;
+    border-radius: 9px;
+}
+.schl-cont h1:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+
+.edu-cont{
+    justify-content:left;
+}
+.schlname{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    background-color : #0f1111;
+    color:white ;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    border:solid 5px transparent;
+    border-radius: 9px;
+}
+.schlname:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.bg-img{
+    
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;
+}
+.clg{
+    height:800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.clg:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.clg-cont{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.clg-cont h1{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    background-color : #0f1111;
+    color:white ;
+    border: solid 5px transparent;
+    border-radius: 9px;
+}
+.clg-cont h1:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.clgname{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    background-color : #0f0f11;
+    color:white ;
+    border-radius: 9px;
+    border: solid 5px transparent;
+}
+.clgname:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.backtoindex{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+    margin-top: 15px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.backtoindex:hover{
+    background-color: darkcyan;
+    color: white;
+    border:solid 5px black;
+    box-shadow: 0 0 100px greenyellow;
+    
+}
+/* EXPERIENCE */
+
+
+/* .exphead{
+    font-weight:700;
+    background-color: #0f1111;
+    color:white;
+    border-radius: 9px;
+    font-size: 90px;
+    width:fit-content;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+}
+.exphead:hover{
+    border: solid 5px rgb(179, 137, 13); 
+}*/
+.exp-heading{
+    font-weight: 700;
+    background-color : #0f1111;
+    color:white ;
+    border-radius: 9px;
+    font-size: 60px;
+    width:fit-content;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    text-decoration: underline;
+    border: solid 5px transparent;
+}
+.exp-heading:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.exp{
+    height: 800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.exp:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.cont-exp{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont-exp h2{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+}
+.cult-img{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+.tech-img{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+
+.Experience{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achie-heading{
+    font-weight: 700;
+    background-color : #0f1111;
+    color:white ;
+    border-radius: 9px;
+    font-size: 60px;
+    width:fit-content;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    text-decoration: underline;
+    border: solid 5px transparent;
+}
+.achie-heading:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.achie{
+    height: 800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.achie:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.cont-achie{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont-achie h2{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+}
+.non-tech-img{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+.tech-achie-img{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+
+.Achievements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+
+/* PROJECTS */
+
+.proj-heading{
+    font-weight: 700;
+    background-color : #0f1111;
+    color:white ;
+    border-radius: 9px;
+    font-size: 60px;
+    width:fit-content;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    text-decoration: underline;
+    border: solid 5px transparent;
+}
+.proj-heading:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.proj{
+    height: 800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.proj:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.cont-proj{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont-proj h2{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+}
+.MAJOR-PROJECTS{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+.MINOR-PROJECTS{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+
+
+/* HARD SKILLS */
+
+.hard-heading{
+    font-weight: 700;
+    background-color : #0f1111;
+    color:white ;
+    border-radius: 9px;
+    font-size: 60px;
+    width:fit-content;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+    text-decoration: underline;
+    border: solid 5px transparent;
+}
+.hard-heading:hover{
+    border: solid 5px rgb(179, 137, 13);
+}
+.hard{
+    height: 800px;
+    width: 550px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px 0px 15px ;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    border:solid 5px transparent;
+}
+.hard:hover{
+    border: solid 5px black; 
+    box-shadow: 0 0 100px greenyellow;
+}
+.cont-hard{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cont-hard h2{
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px rgb(32, 89, 193);
+}
+.Hards{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 5px;   
+}
+
+
+.Hskills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 17px;
+}
